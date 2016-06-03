@@ -1,519 +1,1226 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		B2E32FB41CD75CBA003D0BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E32FB31CD75CBA003D0BF8 /* main.m */; };
-		B2E32FB71CD75CBA003D0BF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E32FB61CD75CBA003D0BF8 /* AppDelegate.m */; };
-		B2E32FBA1CD75CBA003D0BF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E32FB91CD75CBA003D0BF8 /* ViewController.m */; };
-		B2E32FBD1CD75CBA003D0BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E32FBB1CD75CBA003D0BF8 /* Main.storyboard */; };
-		B2E32FBF1CD75CBA003D0BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E32FBE1CD75CBA003D0BF8 /* Assets.xcassets */; };
-		B2E32FC21CD75CBA003D0BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E32FC01CD75CBA003D0BF8 /* LaunchScreen.storyboard */; };
-		B2E32FCD1CD75CBA003D0BF8 /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E32FCC1CD75CBA003D0BF8 /* TableViewTestTests.m */; };
-		B2E32FD81CD75CBA003D0BF8 /* TableViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E32FD71CD75CBA003D0BF8 /* TableViewTestUITests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B2E32FC91CD75CBA003D0BF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2E32FA71CD75CBA003D0BF8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2E32FAE1CD75CBA003D0BF8;
-			remoteInfo = TableViewTest;
-		};
-		B2E32FD41CD75CBA003D0BF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2E32FA71CD75CBA003D0BF8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2E32FAE1CD75CBA003D0BF8;
-			remoteInfo = TableViewTest;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		B2E32FAF1CD75CBA003D0BF8 /* TableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2E32FB31CD75CBA003D0BF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B2E32FB51CD75CBA003D0BF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B2E32FB61CD75CBA003D0BF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B2E32FB81CD75CBA003D0BF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B2E32FB91CD75CBA003D0BF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B2E32FBC1CD75CBA003D0BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2E32FBE1CD75CBA003D0BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2E32FC11CD75CBA003D0BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B2E32FC31CD75CBA003D0BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2E32FC81CD75CBA003D0BF8 /* TableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2E32FCC1CD75CBA003D0BF8 /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
-		B2E32FCE1CD75CBA003D0BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2E32FD31CD75CBA003D0BF8 /* TableViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2E32FD71CD75CBA003D0BF8 /* TableViewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestUITests.m; sourceTree = "<group>"; };
-		B2E32FD91CD75CBA003D0BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		B2E32FAC1CD75CBA003D0BF8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2E32FC51CD75CBA003D0BF8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2E32FD01CD75CBA003D0BF8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		B2E32FA61CD75CBA003D0BF8 = {
-			isa = PBXGroup;
-			children = (
-				B2E32FB11CD75CBA003D0BF8 /* TableViewTest */,
-				B2E32FCB1CD75CBA003D0BF8 /* TableViewTestTests */,
-				B2E32FD61CD75CBA003D0BF8 /* TableViewTestUITests */,
-				B2E32FB01CD75CBA003D0BF8 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		B2E32FB01CD75CBA003D0BF8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B2E32FAF1CD75CBA003D0BF8 /* TableViewTest.app */,
-				B2E32FC81CD75CBA003D0BF8 /* TableViewTestTests.xctest */,
-				B2E32FD31CD75CBA003D0BF8 /* TableViewTestUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B2E32FB11CD75CBA003D0BF8 /* TableViewTest */ = {
-			isa = PBXGroup;
-			children = (
-				B2E32FB51CD75CBA003D0BF8 /* AppDelegate.h */,
-				B2E32FB61CD75CBA003D0BF8 /* AppDelegate.m */,
-				B2E32FB81CD75CBA003D0BF8 /* ViewController.h */,
-				B2E32FB91CD75CBA003D0BF8 /* ViewController.m */,
-				B2E32FBB1CD75CBA003D0BF8 /* Main.storyboard */,
-				B2E32FBE1CD75CBA003D0BF8 /* Assets.xcassets */,
-				B2E32FC01CD75CBA003D0BF8 /* LaunchScreen.storyboard */,
-				B2E32FC31CD75CBA003D0BF8 /* Info.plist */,
-				B2E32FB21CD75CBA003D0BF8 /* Supporting Files */,
-			);
-			path = TableViewTest;
-			sourceTree = "<group>";
-		};
-		B2E32FB21CD75CBA003D0BF8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2E32FB31CD75CBA003D0BF8 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B2E32FCB1CD75CBA003D0BF8 /* TableViewTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				B2E32FCC1CD75CBA003D0BF8 /* TableViewTestTests.m */,
-				B2E32FCE1CD75CBA003D0BF8 /* Info.plist */,
-			);
-			path = TableViewTestTests;
-			sourceTree = "<group>";
-		};
-		B2E32FD61CD75CBA003D0BF8 /* TableViewTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B2E32FD71CD75CBA003D0BF8 /* TableViewTestUITests.m */,
-				B2E32FD91CD75CBA003D0BF8 /* Info.plist */,
-			);
-			path = TableViewTestUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		B2E32FAE1CD75CBA003D0BF8 /* TableViewTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2E32FDC1CD75CBA003D0BF8 /* Build configuration list for PBXNativeTarget "TableViewTest" */;
-			buildPhases = (
-				B2E32FAB1CD75CBA003D0BF8 /* Sources */,
-				B2E32FAC1CD75CBA003D0BF8 /* Frameworks */,
-				B2E32FAD1CD75CBA003D0BF8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TableViewTest;
-			productName = TableViewTest;
-			productReference = B2E32FAF1CD75CBA003D0BF8 /* TableViewTest.app */;
-			productType = "com.apple.product-type.application";
-		};
-		B2E32FC71CD75CBA003D0BF8 /* TableViewTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2E32FDF1CD75CBA003D0BF8 /* Build configuration list for PBXNativeTarget "TableViewTestTests" */;
-			buildPhases = (
-				B2E32FC41CD75CBA003D0BF8 /* Sources */,
-				B2E32FC51CD75CBA003D0BF8 /* Frameworks */,
-				B2E32FC61CD75CBA003D0BF8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2E32FCA1CD75CBA003D0BF8 /* PBXTargetDependency */,
-			);
-			name = TableViewTestTests;
-			productName = TableViewTestTests;
-			productReference = B2E32FC81CD75CBA003D0BF8 /* TableViewTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B2E32FD21CD75CBA003D0BF8 /* TableViewTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2E32FE21CD75CBA003D0BF8 /* Build configuration list for PBXNativeTarget "TableViewTestUITests" */;
-			buildPhases = (
-				B2E32FCF1CD75CBA003D0BF8 /* Sources */,
-				B2E32FD01CD75CBA003D0BF8 /* Frameworks */,
-				B2E32FD11CD75CBA003D0BF8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2E32FD51CD75CBA003D0BF8 /* PBXTargetDependency */,
-			);
-			name = TableViewTestUITests;
-			productName = TableViewTestUITests;
-			productReference = B2E32FD31CD75CBA003D0BF8 /* TableViewTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		B2E32FA71CD75CBA003D0BF8 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = teks;
-				TargetAttributes = {
-					B2E32FAE1CD75CBA003D0BF8 = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					B2E32FC71CD75CBA003D0BF8 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = B2E32FAE1CD75CBA003D0BF8;
-					};
-					B2E32FD21CD75CBA003D0BF8 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = B2E32FAE1CD75CBA003D0BF8;
-					};
-				};
-			};
-			buildConfigurationList = B2E32FAA1CD75CBA003D0BF8 /* Build configuration list for PBXProject "TableViewTest" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = B2E32FA61CD75CBA003D0BF8;
-			productRefGroup = B2E32FB01CD75CBA003D0BF8 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				B2E32FAE1CD75CBA003D0BF8 /* TableViewTest */,
-				B2E32FC71CD75CBA003D0BF8 /* TableViewTestTests */,
-				B2E32FD21CD75CBA003D0BF8 /* TableViewTestUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		B2E32FAD1CD75CBA003D0BF8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2E32FC21CD75CBA003D0BF8 /* LaunchScreen.storyboard in Resources */,
-				B2E32FBF1CD75CBA003D0BF8 /* Assets.xcassets in Resources */,
-				B2E32FBD1CD75CBA003D0BF8 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2E32FC61CD75CBA003D0BF8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2E32FD11CD75CBA003D0BF8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		B2E32FAB1CD75CBA003D0BF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2E32FBA1CD75CBA003D0BF8 /* ViewController.m in Sources */,
-				B2E32FB71CD75CBA003D0BF8 /* AppDelegate.m in Sources */,
-				B2E32FB41CD75CBA003D0BF8 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2E32FC41CD75CBA003D0BF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2E32FCD1CD75CBA003D0BF8 /* TableViewTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2E32FCF1CD75CBA003D0BF8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2E32FD81CD75CBA003D0BF8 /* TableViewTestUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B2E32FCA1CD75CBA003D0BF8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B2E32FAE1CD75CBA003D0BF8 /* TableViewTest */;
-			targetProxy = B2E32FC91CD75CBA003D0BF8 /* PBXContainerItemProxy */;
-		};
-		B2E32FD51CD75CBA003D0BF8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B2E32FAE1CD75CBA003D0BF8 /* TableViewTest */;
-			targetProxy = B2E32FD41CD75CBA003D0BF8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B2E32FBB1CD75CBA003D0BF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2E32FBC1CD75CBA003D0BF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B2E32FC01CD75CBA003D0BF8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2E32FC11CD75CBA003D0BF8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		B2E32FDA1CD75CBA003D0BF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		B2E32FDB1CD75CBA003D0BF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B2E32FDD1CD75CBA003D0BF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TableViewTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teck.TableViewTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		B2E32FDE1CD75CBA003D0BF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TableViewTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teck.TableViewTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B2E32FE01CD75CBA003D0BF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TableViewTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teck.TableViewTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewTest.app/TableViewTest";
-			};
-			name = Debug;
-		};
-		B2E32FE11CD75CBA003D0BF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TableViewTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teck.TableViewTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewTest.app/TableViewTest";
-			};
-			name = Release;
-		};
-		B2E32FE31CD75CBA003D0BF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TableViewTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teck.TableViewTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TableViewTest;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		B2E32FE41CD75CBA003D0BF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TableViewTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.teck.TableViewTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TableViewTest;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		B2E32FAA1CD75CBA003D0BF8 /* Build configuration list for PBXProject "TableViewTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2E32FDA1CD75CBA003D0BF8 /* Debug */,
-				B2E32FDB1CD75CBA003D0BF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B2E32FDC1CD75CBA003D0BF8 /* Build configuration list for PBXNativeTarget "TableViewTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2E32FDD1CD75CBA003D0BF8 /* Debug */,
-				B2E32FDE1CD75CBA003D0BF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		B2E32FDF1CD75CBA003D0BF8 /* Build configuration list for PBXNativeTarget "TableViewTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2E32FE01CD75CBA003D0BF8 /* Debug */,
-				B2E32FE11CD75CBA003D0BF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		B2E32FE21CD75CBA003D0BF8 /* Build configuration list for PBXNativeTarget "TableViewTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2E32FE31CD75CBA003D0BF8 /* Debug */,
-				B2E32FE41CD75CBA003D0BF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = B2E32FA71CD75CBA003D0BF8 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>092F66178F783E10350D8219</key>
+		<dict>
+			<key>fileRef</key>
+			<string>49762D9589F89AC24609B227</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0A4B2F839F9C6F10E9733818</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A48367D7AC034F54B7AEB934</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>18FED3BF56F8FEF01403BCAA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreMedia.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreMedia.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>1EC947C17A14E65EC10FA824</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SystemConfiguration.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/SystemConfiguration.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>24DEB6D4825EC45E702BAA46</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DD2B6C6A39116A3C59A7D983</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>25F038E207D91FE9B6A8BACF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6EFFEAB970B11DAF76F4E59C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2D4913862AB722C05633EF58</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1EC947C17A14E65EC10FA824</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>49762D9589F89AC24609B227</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreVideo.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreVideo.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>49F055AB78BBF698B8C2C302</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9529F0244CBA0B3EFAF5396B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>51A70CF25C7DDF62279AD187</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AssetsLibrary.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/AssetsLibrary.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>6EFFEAB970B11DAF76F4E59C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreText.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreText.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7791A932292BBE8A782AB1DC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DD2B6C6A39116A3C59A7D983</string>
+				<string>51A70CF25C7DDF62279AD187</string>
+				<string>6EFFEAB970B11DAF76F4E59C</string>
+				<string>A48367D7AC034F54B7AEB934</string>
+				<string>1EC947C17A14E65EC10FA824</string>
+				<string>BA83D54234E6B647430345FD</string>
+				<string>9529F0244CBA0B3EFAF5396B</string>
+				<string>18FED3BF56F8FEF01403BCAA</string>
+				<string>49762D9589F89AC24609B227</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77F2264E3FDBDCDF36270B65</key>
+		<dict>
+			<key>fileRef</key>
+			<string>18FED3BF56F8FEF01403BCAA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7BD9B66C8CB3F44887469A21</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BA83D54234E6B647430345FD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8AF1B9D27264105C7248626A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>51A70CF25C7DDF62279AD187</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9529F0244CBA0B3EFAF5396B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AVFoundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/AVFoundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>A48367D7AC034F54B7AEB934</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreTelephony.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreTelephony.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>B2E32FA61CD75CBA003D0BF8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B2E32FB11CD75CBA003D0BF8</string>
+				<string>B2E32FCB1CD75CBA003D0BF8</string>
+				<string>B2E32FD61CD75CBA003D0BF8</string>
+				<string>B2E32FB01CD75CBA003D0BF8</string>
+				<string>7791A932292BBE8A782AB1DC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FA71CD75CBA003D0BF8</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0720</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>teks</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>B2E32FAE1CD75CBA003D0BF8</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.2</string>
+					</dict>
+					<key>B2E32FC71CD75CBA003D0BF8</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.2</string>
+						<key>TestTargetID</key>
+						<string>B2E32FAE1CD75CBA003D0BF8</string>
+					</dict>
+					<key>B2E32FD21CD75CBA003D0BF8</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.2</string>
+						<key>TestTargetID</key>
+						<string>B2E32FAE1CD75CBA003D0BF8</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>B2E32FAA1CD75CBA003D0BF8</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>B2E32FA61CD75CBA003D0BF8</string>
+			<key>productRefGroup</key>
+			<string>B2E32FB01CD75CBA003D0BF8</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>B2E32FAE1CD75CBA003D0BF8</string>
+				<string>B2E32FC71CD75CBA003D0BF8</string>
+				<string>B2E32FD21CD75CBA003D0BF8</string>
+			</array>
+		</dict>
+		<key>B2E32FAA1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B2E32FDA1CD75CBA003D0BF8</string>
+				<string>B2E32FDB1CD75CBA003D0BF8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B2E32FAB1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B2E32FBA1CD75CBA003D0BF8</string>
+				<string>B2E32FB71CD75CBA003D0BF8</string>
+				<string>B2E32FB41CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2E32FAC1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>24DEB6D4825EC45E702BAA46</string>
+				<string>8AF1B9D27264105C7248626A</string>
+				<string>25F038E207D91FE9B6A8BACF</string>
+				<string>0A4B2F839F9C6F10E9733818</string>
+				<string>2D4913862AB722C05633EF58</string>
+				<string>7BD9B66C8CB3F44887469A21</string>
+				<string>49F055AB78BBF698B8C2C302</string>
+				<string>77F2264E3FDBDCDF36270B65</string>
+				<string>092F66178F783E10350D8219</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2E32FAD1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B2E32FC21CD75CBA003D0BF8</string>
+				<string>B2E32FBF1CD75CBA003D0BF8</string>
+				<string>B2E32FBD1CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2E32FAE1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B2E32FDC1CD75CBA003D0BF8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B2E32FAB1CD75CBA003D0BF8</string>
+				<string>B2E32FAC1CD75CBA003D0BF8</string>
+				<string>B2E32FAD1CD75CBA003D0BF8</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>TableViewTest</string>
+			<key>productName</key>
+			<string>TableViewTest</string>
+			<key>productReference</key>
+			<string>B2E32FAF1CD75CBA003D0BF8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>B2E32FAF1CD75CBA003D0BF8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>TableViewTest.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B2E32FB01CD75CBA003D0BF8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B2E32FAF1CD75CBA003D0BF8</string>
+				<string>B2E32FC81CD75CBA003D0BF8</string>
+				<string>B2E32FD31CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FB11CD75CBA003D0BF8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B2E32FB51CD75CBA003D0BF8</string>
+				<string>B2E32FB61CD75CBA003D0BF8</string>
+				<string>B2E32FB81CD75CBA003D0BF8</string>
+				<string>B2E32FB91CD75CBA003D0BF8</string>
+				<string>B2E32FBB1CD75CBA003D0BF8</string>
+				<string>B2E32FBE1CD75CBA003D0BF8</string>
+				<string>B2E32FC01CD75CBA003D0BF8</string>
+				<string>B2E32FC31CD75CBA003D0BF8</string>
+				<string>B2E32FB21CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>TableViewTest</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FB21CD75CBA003D0BF8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B2E32FB31CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FB31CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FB41CD75CBA003D0BF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2E32FB31CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2E32FB51CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FB61CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FB71CD75CBA003D0BF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2E32FB61CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2E32FB81CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FB91CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FBA1CD75CBA003D0BF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2E32FB91CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2E32FBB1CD75CBA003D0BF8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B2E32FBC1CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FBC1CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FBD1CD75CBA003D0BF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2E32FBB1CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2E32FBE1CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FBF1CD75CBA003D0BF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2E32FBE1CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2E32FC01CD75CBA003D0BF8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B2E32FC11CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FC11CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FC21CD75CBA003D0BF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2E32FC01CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2E32FC31CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FC41CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B2E32FCD1CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2E32FC51CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2E32FC61CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2E32FC71CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B2E32FDF1CD75CBA003D0BF8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B2E32FC41CD75CBA003D0BF8</string>
+				<string>B2E32FC51CD75CBA003D0BF8</string>
+				<string>B2E32FC61CD75CBA003D0BF8</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>B2E32FCA1CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>TableViewTestTests</string>
+			<key>productName</key>
+			<string>TableViewTestTests</string>
+			<key>productReference</key>
+			<string>B2E32FC81CD75CBA003D0BF8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>B2E32FC81CD75CBA003D0BF8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>TableViewTestTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B2E32FC91CD75CBA003D0BF8</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>B2E32FA71CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>B2E32FAE1CD75CBA003D0BF8</string>
+			<key>remoteInfo</key>
+			<string>TableViewTest</string>
+		</dict>
+		<key>B2E32FCA1CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>B2E32FAE1CD75CBA003D0BF8</string>
+			<key>targetProxy</key>
+			<string>B2E32FC91CD75CBA003D0BF8</string>
+		</dict>
+		<key>B2E32FCB1CD75CBA003D0BF8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B2E32FCC1CD75CBA003D0BF8</string>
+				<string>B2E32FCE1CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>TableViewTestTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FCC1CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TableViewTestTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FCD1CD75CBA003D0BF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2E32FCC1CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2E32FCE1CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FCF1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B2E32FD81CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2E32FD01CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2E32FD11CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B2E32FD21CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B2E32FE21CD75CBA003D0BF8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B2E32FCF1CD75CBA003D0BF8</string>
+				<string>B2E32FD01CD75CBA003D0BF8</string>
+				<string>B2E32FD11CD75CBA003D0BF8</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>B2E32FD51CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>TableViewTestUITests</string>
+			<key>productName</key>
+			<string>TableViewTestUITests</string>
+			<key>productReference</key>
+			<string>B2E32FD31CD75CBA003D0BF8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>B2E32FD31CD75CBA003D0BF8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>TableViewTestUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B2E32FD41CD75CBA003D0BF8</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>B2E32FA71CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>B2E32FAE1CD75CBA003D0BF8</string>
+			<key>remoteInfo</key>
+			<string>TableViewTest</string>
+		</dict>
+		<key>B2E32FD51CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>B2E32FAE1CD75CBA003D0BF8</string>
+			<key>targetProxy</key>
+			<string>B2E32FD41CD75CBA003D0BF8</string>
+		</dict>
+		<key>B2E32FD61CD75CBA003D0BF8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B2E32FD71CD75CBA003D0BF8</string>
+				<string>B2E32FD91CD75CBA003D0BF8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>TableViewTestUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FD71CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TableViewTestUITests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FD81CD75CBA003D0BF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2E32FD71CD75CBA003D0BF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2E32FD91CD75CBA003D0BF8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2E32FDA1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B2E32FDB1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B2E32FDC1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B2E32FDD1CD75CBA003D0BF8</string>
+				<string>B2E32FDE1CD75CBA003D0BF8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B2E32FDD1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>$(PROJECT_DIR)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>TableViewTest/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.teck.TableViewTest</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B2E32FDE1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>$(PROJECT_DIR)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>TableViewTest/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.teck.TableViewTest</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B2E32FDF1CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B2E32FE01CD75CBA003D0BF8</string>
+				<string>B2E32FE11CD75CBA003D0BF8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B2E32FE01CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>TableViewTestTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.teck.TableViewTestTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/TableViewTest.app/TableViewTest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B2E32FE11CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>TableViewTestTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.teck.TableViewTestTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/TableViewTest.app/TableViewTest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B2E32FE21CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B2E32FE31CD75CBA003D0BF8</string>
+				<string>B2E32FE41CD75CBA003D0BF8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B2E32FE31CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>TableViewTestUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.teck.TableViewTestUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>TableViewTest</string>
+				<key>USES_XCTRUNNER</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B2E32FE41CD75CBA003D0BF8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>TableViewTestUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.teck.TableViewTestUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>TableViewTest</string>
+				<key>USES_XCTRUNNER</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>BA83D54234E6B647430345FD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>DD2B6C6A39116A3C59A7D983</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>BuddyBuildSDK.framework</string>
+			<key>path</key>
+			<string>BuddyBuildSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>B2E32FA71CD75CBA003D0BF8</string>
+</dict>
+</plist>
